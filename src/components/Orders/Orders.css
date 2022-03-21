@@ -1,0 +1,243 @@
+.orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+     margin-left: 15px;
+     margin-right: 15px;
+
+}
+
+.line1{
+    border: 1px solid black;
+}
+ 
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+width: 100%;
+}
+
+.table1{
+    width: 100%;
+}
+
+table{
+     border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px -1px rgba(15, 23, 42, 0.08);
+}
+
+.t-row1{
+    justify-content: space-between;
+    
+    
+}
+.customer{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #1E293B;
+}
+.total{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #10B981;
+}
+
+th{
+    text-align: start;
+    height: 40px;
+   
+}
+
+.checkbox-table{
+    width: 20px;
+}
+
+.t-row2{
+    background: #F8FAFC;
+mix-blend-mode: multiply;
+opacity: 0.64;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #64748B;
+}
+.arrow{
+   background: #F1F5F9;
+   padding: 3px;
+   margin: 3px;
+   height: 25px;
+   border-radius: 50%;
+
+}
+
+.date{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #475569;
+}
+
+.status-table{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+ 
+
+margin-right: 0;
+padding: 5px;
+width:fit-content;
+border-radius: 15px;
+
+
+}
+
+tr {
+    border-bottom: 0.5px solid #ccc;
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-r{
+color:#D97706;
+background: #FEF3C7;
+}
+
+.color-a{
+    background: #D1FAE5;
+color: #059669;
+}
+
+.color-p{
+color:#64748B;
+background: #F1F5F9;
+
+}
+
+.payment{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #475569; 
+display: flex;
+align-items: center; ;
+}
+
+.footer{
+width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.button-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+margin: 3px;
+color: #6366F1;
+}
+
+
+.button-1{ margin: 3px;
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #CBD5E1;
+}
+
+.button{
+    display: flex; 
+}
+
+.footer-content{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #64748B;
+}

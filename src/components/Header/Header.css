@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input1{
+    border: 1px solid #7B809A;
+box-sizing: border-box;
+border-radius: 8px;
+width: 173px;
+height: 42px;
+background-color: #E5E5E5;
+color:#7B809A;
+font-weight: 400;
+font-size: 14px;
+padding-left: 10px;
+}
+.notif{
+   
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
